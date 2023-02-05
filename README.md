@@ -25,4 +25,4 @@ according to #1) and add it to the inventory.
 3. Users can click on the tile in the inventory and place
 it back in the world.
 #### screen-shot
-![screen_shot](https://user-images.githubusercontent.com/53153372/216789781-a5c2dc58-7572-426c-b5a1-008dfd0e81cb.png)
+![screen_shot](![minecraft_screenshot](https://user-images.githubusercontent.com/107620866/216851226-16bbfa6f-2db6-46ec-8641-7be0e7ebcabb.png)
