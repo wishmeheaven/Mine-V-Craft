@@ -1,16 +1,13 @@
-# simple-minecraft
+# Minecraft-2D
 
 Minecraft is a sandbox video game initially created by Swedish programmer, Markus "Notch" Persson .
 The creative and building aspects of Minecraft enable players to build constructions out of textured cubes in a 3D procedurally generated world.
 
-This version of the game made of 2D pre-generated world.
+In my version of the game, I used a 2D pre - generated world.
 
-In this project I was supported by my friend Benjamin (https://github.com/MrBennySolomon), who was kind enough to introduce me to the MVC concept, as well as Local Storage.
+### using HTML, SCSS, JavaScript, TypeScript localStorage and MVC design pattern.
 
-
-### using HTML, JavaScript, localStorage and MVC design pattern.
-
-* live preview at: https://myncraft.netlify.app/
+* live preview at: https://minecraft-2d-benny.netlify.app/
 
 1. The user will have 3 types of tools:
 
