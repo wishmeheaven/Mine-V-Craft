@@ -44,7 +44,7 @@ class Model {
 
   pushTiles(type) {
     this.tilesPicked.push(type);
-    localStorage.setItem('tilesPicked', JSON.stringify(this.tilesPicked));
+    // localStorage.setItem('tilesPicked', JSON.stringify(this.tilesPicked));
     localStorage.setItem('lastPickedTile', JSON.stringify(this.tilesPicked[this.tilesPicked.length - 1]));
     this.lastPickedTile = type;
   }
@@ -54,7 +54,7 @@ class Model {
     this.selectedTool             = '';
     this.lastPickedTile           = '';
     this.isLastPickedFramePressed = false;
-    
+    localStorage.clear();
     localStorage.setItem('tilesPicked', JSON.stringify(this.tilesPicked));
     localStorage.setItem('selectedTool', JSON.stringify(this.selectedTool));
     localStorage.setItem('lastPickedTile', JSON.stringify(this.lastPickedTile));

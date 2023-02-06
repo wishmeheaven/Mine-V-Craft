@@ -48,9 +48,13 @@ class Controller {
             cell.setAttribute('type', 'cloud');
             cell.setAttribute('tool', 'none');
             break;
+          case 8:
+            cell.classList.add('sun');
+            cell.setAttribute('type', 'sun');
+            // cell.setAttribute('tool', 'none');
+            break;
           default:
             throw new Error('NON RECOGNIZED NUMBER');
-            break;
         }
         this.view.appendChild(cell);
       }  

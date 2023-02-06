@@ -1,7 +1,38 @@
+    @font-face {
+    font-family: 'Minecraft Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Regular'), url('../assets/fonts/1_MinecraftRegular1.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Minecraft Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Italic'), url('../assets/fonts/2_MinecraftItalic1.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Minecraft Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Bold'), url('../assets/fonts/3_MinecraftBold1.woff') format('woff');
+    }
+    
+    @font-face {
+    font-family: 'Minecraft Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Bold Italic'), url('../assets/fonts/4_MinecraftBoldItalic1.woff') format('woff');
+    }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Minecraft bold', sans-serif;
 }
 
 body {
@@ -14,10 +45,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
   width: 100vw;
-  background: url(../img/stone1.png);
+  background: url(../assets/img/stone1.png);
 }
 
 .logo-button-start {
@@ -26,23 +56,56 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 1rem;
-  width: 30rem;
-  height: 10rem;
+  width: 50rem;
+  height: 20rem;
 }
 
 .logo {
-  background: url(../img/logo.png) no-repeat center center/cover;
+  background: url(../assets/img/logo.png) no-repeat center center/cover;
   width: 100%;
   height: 50%;
 }
 
+
 .button-start {
   font-size: 2rem;
-  padding: 0.3rem;
+  padding: 1rem;
   font-weight: bold;
   text-align: center;
-  width: 10rem;
-  height: 3rem;
-  background-color: white;
+  font-weight: bold;
+  width: 11rem;
+  height: 5rem;
+  color: #7c7c7c;
+  background-color: rgb(0, 0, 0);
+  box-shadow: inset 0 0 20px 2px #9b9a9a;
+  letter-spacing: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.button-start:hover {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  width: 11rem;
+  height: 5rem;
+  color: #252525;
+  background-color: rgb(109, 109, 109);
+  box-shadow: inset 0 0 20px 5px #111010;
+  
+}
+.button-start:active {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  width: 11rem;
+  height: 5rem;
+  color: #b03500;
+  box-shadow: inset 0 0 20px 2px #ff3300f1;
+  letter-spacing: 0.5rem;
+  border-radius: 1rem;
   cursor: pointer;
 }
